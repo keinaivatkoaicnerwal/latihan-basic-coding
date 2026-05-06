@@ -1,0 +1,163 @@
+@import url('https://fonts.googleapis.com/css2?family=Freckle+Face&family=Jersey+10&family=Kosugi&family=Mansalva&family=Special+Elite&display=swap');
+
+body {
+    background-color: #f2e9e4;
+    background-repeat: no-repeat;
+    background-size: cover;
+    margin: 0px;
+}
+
+h1, h2, p{
+    margin: 1px;
+    text-align: center;
+    font-family: "Kosugi", sans-serif;
+    font-weight: 400;
+    font-style: normal;
+}
+
+nav ul{
+    display: flex;;
+    list-style-type: none;
+    background-color: #a6664b;
+    padding: 10px 10px;
+    margin: 0px 0px 10px 0px;
+}
+
+nav ul li{
+    margin: 0px 10px;
+    color: rgb(255, 255, 255)
+
+}
+
+nav ul li a{
+    color: rgb(255, 255, 255);
+    text-decoration: none;
+    font-size: 20px;
+    font-family: "Special Elite", system-ui;
+    font-weight: 300;
+}
+
+nav ul li a:hover{
+    color: #3a0808;
+}
+
+
+table, th, td {
+	border: solid 1px black;
+}
+
+.wrapper{
+    width: 900px;
+    height: 950px;
+    margin: 0px auto;
+    background-color: #fff6e5;
+    padding: 10px;
+}
+
+.main{
+    width: 100%;
+    height: 100%;
+    margin: 0px auto;
+    display: flex;
+    flex-direction: column;
+    background-color: #dbaf9c;
+    justify-content: space-between;
+}
+
+#table{
+    height: 50%;
+    padding: 20px;
+}
+
+.content{
+    height: 100%;
+    width: 100%;
+    display: flex;
+    flex-direction: column;
+    justify-content: space-evenly;
+}
+
+#form{
+    height: 80%;
+    margin: 10px auto 20px;
+    padding: 10px 10px;
+    background-color: #b39380;
+    border-radius: 10PX;
+    box-shadow: 4px 4px #795f51
+}
+
+.content2{
+    height: 100%;
+    display: flex;
+    flex-direction: column;
+    justify-content: space-evenly;
+    
+}
+
+input {
+  width: 100%;
+  padding: 5px;
+  margin: 2px 0;
+  box-sizing: border-box;
+}
+
+input:focus {
+  border: 2px solid #ff0000;
+  background-color: #e0cdc5;
+}
+
+select{
+  width: 100%;
+  padding: 5px;
+  margin: 2% 0;
+  box-sizing: border-box;
+}
+
+textarea {
+  width: 100%;
+  height: 100px;
+  padding: 10px;
+  box-sizing: border-box;
+  border: 2px solid #ccc;
+  border-radius: 4px;
+  background-color: #f8f8f8;
+  resize: none;
+  margin: 2px;
+}
+
+textarea:focus{
+    border: 2px solid #ff0000;
+    background-color: #e0cdc5;
+}
+
+input[type=submit]{
+  background-color: #a6664b;
+  border: none;
+  color: white;
+  padding: 10px 32px;
+  margin: 4px 2px;
+  cursor: pointer;
+}
+
+input[type=submit]:hover{
+      background-color: #84523c;
+}
+
+th {
+  background-color: #865b46;
+  color: white;
+  padding: 5px;
+}
+
+td{
+    padding: 5px;
+    background-color: #f0d1c3;
+}
+
+table{
+     border-collapse: collapse;
+}
+
+.judul{
+    font-size: 20px;
+}

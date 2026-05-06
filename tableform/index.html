@@ -1,0 +1,132 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <title>latihantableform</title>
+    <link rel="stylesheet" href="style.css">
+</head>
+<body>
+    <nav>
+        <ul>
+            <li><a href="../index.html">Home</a></li>
+            <li>|</li>
+            <li><a href="../xyzzoo/index.html">XYZ Zoo</a></li>
+        </ul>
+    </nav>
+        <div class="wrapper">
+            <div class="main">
+                <div id="table">
+                    <div class="content">
+                        <div class="judul">
+                            <h1>対戦結果</h1>
+                        </div>
+                        <div class="keterangan">
+                            <h2>第73回JABA九州大会</h2>
+                        </div>
+                        <div class="para">
+                            <p>2021年5月9日(日) 9:00 <br>試合会場：オーヴィジョンスタジアム下関</p>
+                    </div>
+                    <br>
+                    <div class="tabel1">
+                        <table style="width:100%">
+                            <tr>
+                                <th style="text-align: left;">チーム名</th>
+                                <th>1</th>
+                                <th>2</th>
+                                <th>3</th>
+                                <th>4</th>
+                                <th>5</th>
+                                <th>6</th>
+                                <th>7</th>
+                                <th>8</th>
+                                <th>9</th>
+                                <th>計</th>
+                            </tr>
+                            <tr>
+                                <td>パナソク</td>
+                                <td style="text-align: center;">0</td>
+                                <td style="text-align: center;">0</td>
+                                <td style="text-align: center;">0</td>
+                                <td style="text-align: center;">0</td>
+                                <td style="text-align: center;">1</td>
+                                <td style="text-align: center;">0</td>
+                                <td style="text-align: center;">3</td>
+                                <td style="text-align: center;">0</td>
+                                <td style="text-align: center;">3</td>
+                                <td style="text-align: center;">1</td>
+                            </tr>
+                            <tr>
+                                <td>Honda熊本</td>
+                                <td style="text-align: center;">0</td>
+                                <td style="text-align: center;">1</td>
+                                <td style="text-align: center;">0</td>
+                                <td style="text-align: center;">0</td>
+                                <td style="text-align: center;">0</td>
+                                <td style="text-align: center;">0</td>
+                                <td style="text-align: center;">0</td>
+                                <td style="text-align: center;">0</td>
+                                <td style="text-align: center;">0</td>
+                                <td style="text-align: center;">1</td>
+                            </tr>
+                        </table>
+                    </div>
+                    <br>
+                    <div class="tabel2">
+                        <table style="width:100%">
+                            <tr>
+                                <th rowspan="2">バッテリー</th>
+                                <th>Honda熊本</th>
+                                <th>パナソニック</th>
+                            </tr>
+                            <tr>
+                                <td>投手：島袋、福田、横川、内田、高山、中津<br>捕手：竹葉 </td>
+                                <td style="text-align: to;">投手：榎本 捕手：川上</td>
+                            </tr>
+                        </table>
+                    </div>
+                </div>
+            </div>
+            <form id="form">
+                <div class="content2">
+                    <div class="judul">
+                        <h2>お問い合わせ</h2>
+                    </div>
+                    <div>
+                        <label for="name">お名前 [必須]:</label>
+                        <br>
+                        <input type="text" id="name" name="name" required><br>
+                    </div>
+                    <div>
+                        <label for="email">メールアドレス [必須]:</label>
+                        <br>
+                        <input type="email" id="email" name="email" required><br>
+                    </div>
+                    <div>
+                        <label for="tel">電話番号[任意]:</label><br>
+                        <input type="text" id="tel" name="tel"><br>
+                    </div>
+                    <div>
+                        <label for="business">ご用件 [必須]:</label><br>
+                        <select id="business" name="business" required>
+                            <option value disable selection hidden>選択してください</option>
+                            <option value="1">書籍についてのご質問(個人のお客様)</option>
+                            <option value="2">書籍についてのご質問(取次・書店様)</option>
+                            <option value="3">書籍についてのご質問(メディア関係者様)</option>
+                            <option value="4">アルバイト・パートに関するお問い合わせ</option>
+                            <option value="5">仕事のご依頼・お問い合わせ</option>
+                            <option value="6">外部スタッフのご希望(フリーの方、制作会社様)</option>
+                            <option value="7">その他のお問合せ</option>
+                        </select><br>
+                    </div>
+                    <div>
+                        <label for ="message">お問い合わせ内容 [必須]:</label><br>
+                        <textarea id="message" name="message" required></textarea><br>
+                        
+                    </div>
+                    <div class="tombol"><input type="submit" value="確認"></div>
+                </div>
+            </form>
+        </div>
+    </div>
+</div>
+</body>
+</html>

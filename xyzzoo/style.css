@@ -1,0 +1,229 @@
+@import url('https://fonts.googleapis.com/css2?family=Freckle+Face&family=Jersey+10&family=Mansalva&family=Special+Elite&display=swap');
+
+body{
+    margin: 0px;
+    padding: 0px;
+}
+
+.wrapper{
+    margin: 0px auto;
+    width: 990px;
+    background-color: #438D80;
+    padding: 10px 20px;
+
+}
+
+.view{
+    background-color: #72aea3;
+    padding: 10px 20px;
+}
+
+.title{
+    font-family: 'Freckle Face', cursive;
+    text-shadow: #165a4c 2px 2px 0px;
+    font-size: 50px;
+    letter-spacing: 2px;
+    color: #fff8f8;
+    text-align: center;
+    margin: 0px;
+}
+
+.choices{
+    display: flex;
+    justify-content: space-around;
+    padding: 10px 20px;
+}
+
+.button{
+  background-color: #348275;
+  border: 2px solid #10735f;
+  color: rgb(255, 255, 255);
+  padding: 5px 100px;
+  text-align: center;
+  text-decoration: none;
+  display: inline-block;
+  font-size: 24px;
+  margin: 3px auto;
+  cursor: pointer;
+  border-radius: 100px;
+  font-family: 'Mansalva', sans-serif;  
+}
+
+.button:hover {
+  background-color: #165a4c;
+  color: rgb(255, 255, 255);
+}
+
+.main {
+    background-color: #72aea3;
+    width: auto;
+    height: auto;
+    padding: 20px 20px;
+}
+
+.info{
+    width: auto;
+    height: 100%;
+    background-color: #72aea3;
+    padding: 10px 10px;
+    margin: 0px auto;
+}
+
+.feline{
+    width: 100%;
+    height: auto;
+    display: flex;
+
+
+}
+
+.item{
+    width: 100%;
+    height: auto;
+    padding: 10px;
+    text-align: center;
+}
+
+.canine{
+    width: 100%;
+    height: auto;
+    display: flex;
+
+}
+
+.bird{
+    width: 100%;
+    height: auto;
+    display: flex;
+
+}
+
+.htitle{
+    font-family: 'Freckle Face', cursive;
+    font-size: 40px;
+    color: #fff8f8;
+    text-align: center;
+    margin: 0px;
+    background-color: #165a4c;
+}
+
+.p {
+     font-family: "Special Elite", system-ui;
+    font-weight: 400;
+    font-style: normal;
+    font-size: 30px;
+    color: #000000;
+    text-align: center;
+    width: 100%;
+    place-content: center;
+    justify-content: center;
+}
+
+.container{
+    width: 100%;
+    height: auto;
+    display: flex;
+    flex-direction: column;
+    background-color: rgb(227, 194, 181);
+    padding: auto;
+}
+
+.source{
+    font-size: 20px;
+    color: #ffffff;
+    padding: 10px 50px;
+    background-color: #348275;
+    text-align: center;
+    margin: 4px 2px;
+    width: auto
+}
+
+.box{
+    width: auto;
+    height: auto;
+    background-color: rgb(227, 194, 181);
+    padding: 10px 10px;
+}
+
+body{
+    background-image: url(img/bg.jpg);
+    background-position: bottom;
+    background-repeat: no-repeat;
+    background-size: auto
+}
+
+.buttonlink{
+    display: flex;
+    justify-content: center;
+    width: auto;
+   padding: 10px 10px;
+}
+
+.buttonfooter{
+    background-color: #348275;
+    border: 2px solid #165a4c;
+    color: rgb(255, 255, 255);
+    padding: 10px 50px;
+    text-align: center;
+    text-decoration: none;
+    display: inline-block;
+    font-size: 20px;
+    margin: 4px 2px;
+    cursor: pointer;
+    width: 200px;
+}
+
+span.highlight{
+    color: #165a4c;
+    font-size: 30px;
+    font-weight: bold;
+}
+
+.buttonfooter:hover {
+  background-color: #165a4c;
+  color: rgb(255, 255, 255);
+}
+
+ul{
+    display: flex;;
+    list-style-type: none;
+    background-color: #348275;
+    padding: 10px 10px;
+    margin: 0px 0px 10px 0px;
+}
+
+ul li{
+    margin: 0px 10px;
+    color: rgb(255, 255, 255)
+
+}
+
+ul li a{
+    color: rgb(255, 255, 255);
+    text-decoration: none;
+    font-size: 20px;
+    font-family: "Special Elite", system-ui;
+    font-weight: 300;
+}
+
+ul li a:hover{
+    color: #165a4c;
+}
+
+#scrolltotopbtn {
+    position: fixed;
+    bottom: 20px;
+    right: 30px;
+    font-size: 30px;
+    border-radius: 50%;
+    outline: none;
+    background-color: #dee8e9;
+    color: white;
+    cursor: pointer;
+    padding: 10px;
+    z-index: 1000;
+}
+
+#scrolltotopbtn:hover {
+    background-color: #adbfbc;
+}
